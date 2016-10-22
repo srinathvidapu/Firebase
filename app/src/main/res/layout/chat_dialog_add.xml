@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="26dp"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/etuid"
+        android:hint="UID"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:hint="Name"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etmessage"
+        android:hint="Message"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btadd"
+        android:layout_gravity="center"
+        android:text="ADD"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
